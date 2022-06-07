@@ -1,7 +1,7 @@
 {
   "main.css": "/office-bingo/static/css/main.dce886e1.chunk.css",
-  "main.js": "/office-bingo/static/js/main.a46d2d41.chunk.js",
-  "main.js.map": "/office-bingo/static/js/main.a46d2d41.chunk.js.map",
+  "main.js": "/office-bingo/static/js/main.038d5dc4.chunk.js",
+  "main.js.map": "/office-bingo/static/js/main.038d5dc4.chunk.js.map",
   "static/js/1.709d58a2.chunk.js": "/office-bingo/static/js/1.709d58a2.chunk.js",
   "static/js/1.709d58a2.chunk.js.map": "/office-bingo/static/js/1.709d58a2.chunk.js.map",
   "static/js/2.666657da.chunk.js": "/office-bingo/static/js/2.666657da.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/office-bingo/static/js/runtime~main.08af5846.js.map",
   "static/css/main.dce886e1.chunk.css.map": "/office-bingo/static/css/main.dce886e1.chunk.css.map",
   "index.html": "/office-bingo/index.html",
-  "precache-manifest.f41070b6d8421074c1c0b5a2662d6f15.js": "/office-bingo/precache-manifest.f41070b6d8421074c1c0b5a2662d6f15.js",
+  "precache-manifest.60a4ae4ba8469eb8ff292eb9f3e24004.js": "/office-bingo/precache-manifest.60a4ae4ba8469eb8ff292eb9f3e24004.js",
   "service-worker.js": "/office-bingo/service-worker.js"
 }

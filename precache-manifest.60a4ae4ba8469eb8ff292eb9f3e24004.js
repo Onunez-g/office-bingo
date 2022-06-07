@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a46d2d414ce2a7085840",
+    "revision": "038d5dc46f58ef2b35c0",
     "url": "/office-bingo/static/css/main.dce886e1.chunk.css"
   },
   {
-    "revision": "a46d2d414ce2a7085840",
-    "url": "/office-bingo/static/js/main.a46d2d41.chunk.js"
+    "revision": "038d5dc46f58ef2b35c0",
+    "url": "/office-bingo/static/js/main.038d5dc4.chunk.js"
   },
   {
     "revision": "709d58a229027795f766",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/office-bingo/static/js/runtime~main.08af5846.js"
   },
   {
-    "revision": "a422775baa0bcbcb0ae4a9f8132fdb40",
+    "revision": "df06bf914935752787890d0c318892ef",
     "url": "/office-bingo/index.html"
   }
 ];
