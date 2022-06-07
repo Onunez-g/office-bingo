@@ -1,0 +1,35 @@
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 2em;
+}
+
+.continue {
+  background-color: #004499;
+  color: #fff;
+  padding: .7em .5em;
+  margin: .5em;
+  margin-top: 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.continue:hover {
+  background-color: #0055BB;
+}
+
+.title {
+  font-size: 1.4em;
+}
+
+.selectBox {
+  height: 40px;
+  padding: .5em .7em;
+  margin: .5em;
+}
