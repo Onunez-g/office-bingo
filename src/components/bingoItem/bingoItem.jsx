@@ -1,5 +1,5 @@
 import React from "react";
-import './bingoItem.css'
+import './bingoItem.scss'
 
 const BingoItem = ({item, index, onClick}) => {
   return (

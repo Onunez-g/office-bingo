@@ -1,21 +1,35 @@
+@use '../../variables';
+
 .box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
 }
 
-.header {
+.content {
   flex: 0 1 auto;
+  background-color: variables.$accentColor;
+  margin: .7em;
+  border-radius: 15px;
+  color: variables.$clearColor;
+  width: max-content;
+  h2 {
+    // color: variables.$backgroundColor;
+    letter-spacing: 10px;
+  }
 }
 
 .board {
-  padding: .8em;
+  margin: 1em;
+  padding: .5em .5em;
   display: grid;
   grid-template-columns: repeat(5, max-content);
   grid-template-rows: repeat(5, auto);
   overflow-y: hidden;
   justify-content: center;
   align-items: center;
+  border-radius: 0 0 15px 15px;
 }
 
 .list {
@@ -26,15 +40,15 @@
   overflow-y: scroll;
 }
 
-.footer {
+.header {
   flex: 0 1 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.footer>p {
-  margin: 0 1em;
+  p {
+    margin: 0 1em;
+    font-weight: 600;
+  }
 }
 
 .btn {
@@ -47,11 +61,17 @@
 }
 
 .resetBtn {
-  background-color: #AA2200;
+  background-color: variables.$primaryColor;
   color: #FFF;
+  &:hover {
+    background-color: variables.$secondaryColor;
+  }
 }
 
 .loginBtn {
-  background-color: #004499;
+  background-color: variables.$accentColor;
   color: #FFF;
+  &:hover {
+    background-color: #3f9fbe;
+  }
 }

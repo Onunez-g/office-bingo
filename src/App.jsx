@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './App.css';
+import './App.scss';
 import {Data} from './data/Data'
 import {Names} from './data/Names'
 import { Route, Routes, useNavigate } from "react-router-dom";

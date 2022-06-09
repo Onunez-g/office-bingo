@@ -1,3 +1,10 @@
+@use 'variables';
+
+html {
+  background-color: variables.$clearColor;
+  color: variables.$fontColor;
+}
+
 .App {
   text-align: center;
   display: flex;

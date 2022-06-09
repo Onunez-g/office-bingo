@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './bingoBoard.css'
+import './bingoBoard.scss'
 import BingoItem from "../bingoItem/bingoItem";
 import ListItem from "../listItem/listItem";
 import { useNavigate } from "react-router-dom";
@@ -54,17 +54,18 @@ const BingoBoard = ({items}) => {
   return (
     <div className="box">
       <div className="header">
+        <p>User: {username}</p>
+        <button className="btn resetBtn" onClick={onResetBoard}>Reset board</button>
+        <button className="btn loginBtn" onClick={changeUserClick}>Change user</button>
+      </div>
+      <div className="content">
+        <h2>BINGO</h2>
         <div className="board">
           {renderItems()}
         </div>
       </div>
       <div className="list">
         {bingoItems.map((x, i) => <ListItem key={x.id} item={x} index={i} onClick={onListItemClick}/>)}
-      </div>
-      <div className="footer">
-        <p>User: {username}</p>
-        <button className="btn resetBtn" onClick={onResetBoard}>Reset board</button>
-        <button className="btn loginBtn" onClick={changeUserClick}>Change user</button>
       </div>
     </div>
   )
