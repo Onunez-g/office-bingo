@@ -1,0 +1,13 @@
+@use './color-palette' as *;
+
+@mixin theme-aware($key, $color: 'primaryColor') {
+  @each $theme-name, $theme-color in $themes {
+    .theme-#{$theme-name} & {
+      #{$key}: theme-select($theme-name, $color);
+    }
+  }
+}
+
+@function theme-select($theme: 'lightTheme', $color: 'primaryColor') {
+  @return map-get(map-get($map: $themes, $key: $theme), $color);
+}

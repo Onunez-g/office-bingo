@@ -1,6 +1,6 @@
 {
   "name": "terrenas-bingo",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "homepage": "https://Onunez-g.github.io/office-bingo",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
+    "react-use-localstorage": "^3.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

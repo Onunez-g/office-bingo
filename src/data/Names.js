@@ -12,6 +12,7 @@ export const Names = [
   "Jiba",
   "Jose L.",
   "Karla",
+  "Leanthony",
   "Leonardo",
   "Orlando",
   "Nicole",

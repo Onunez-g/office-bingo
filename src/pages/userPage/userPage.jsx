@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useLocalStorage from "react-use-localstorage";
 import {Names} from '../../data/Names'
 import './userPage.scss'
 
 const UserPage = () => {
   const [username, setUsername] = useState("");
+  const [item,setItem] = useLocalStorage("signedFirstTime")
   const navigate = useNavigate();
   const handleChange = (e) => {
     setUsername(e.target.value)
   }
   const filteredNames = [
     "Daniella",
+    "Leanthony",
     "Anyone",
     "TU"
   ]
@@ -24,6 +27,7 @@ const UserPage = () => {
     if(username)
     {
       window.localStorage.removeItem("bingo");
+      setItem(true);
       navigate('/', {replace: true})
     }
   }

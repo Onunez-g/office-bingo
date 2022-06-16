@@ -1,4 +1,5 @@
 @use '../../variables';
+@use '../../themes/mixins';
 
 .box {
   display: flex;
@@ -9,10 +10,10 @@
 
 .content {
   flex: 0 1 auto;
-  background-color: variables.$accentColor;
+  @include mixins.theme-aware('background-color', 'accentColor');
   margin: .7em;
   border-radius: 15px;
-  color: variables.$clearColor;
+  @include mixins.theme-aware('color', 'clearColor');
   width: max-content;
   h2 {
     // color: variables.$backgroundColor;
@@ -61,17 +62,17 @@
 }
 
 .resetBtn {
-  background-color: variables.$primaryColor;
+  @include mixins.theme-aware('background-color');
   color: #FFF;
   &:hover {
-    background-color: variables.$secondaryColor;
+    @include mixins.theme-aware('background-color', 'secondaryColor');
   }
 }
 
 .loginBtn {
-  background-color: variables.$accentColor;
+  @include mixins.theme-aware('background-color', 'accentColor');
   color: #FFF;
   &:hover {
-    background-color: #3f9fbe;
+    @include mixins.theme-aware('background-color', 'accent2Color');
   }
 }

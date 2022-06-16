@@ -1,15 +1,38 @@
-@use 'variables';
+@use './themes/mixins';
 
 html {
-  background-color: variables.$clearColor;
-  color: variables.$fontColor;
+  background-color: mixins.theme-select($color: 'backgroundColor');
+  color: mixins.theme-select($color: 'fontColor');
+  .theme-darkTheme {
+    background-color: mixins.theme-select('darkTheme','backgroundColor');
+    color: mixins.theme-select('darkTheme','fontColor');
+  }
+  .theme-pastelTheme {
+    background-color: mixins.theme-select('pastelTheme','backgroundColor');
+    color: mixins.theme-select('pastelTheme','fontColor');
+  }
+  .theme-greenTheme {
+    background-color: mixins.theme-select('greenTheme','backgroundColor');
+    color: mixins.theme-select('greenTheme','fontColor');
+  }
+  .theme-pinkTheme {
+    background-color: mixins.theme-select('pinkTheme','backgroundColor');
+    color: mixins.theme-select('pinkTheme','fontColor');
+  }
+  .theme-redTheme {
+    background-color: mixins.theme-select('redTheme','backgroundColor');
+    color: mixins.theme-select('redTheme','fontColor');
+  }
+  transition: all 2s;
 }
 
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  transition: all 2s;
 }

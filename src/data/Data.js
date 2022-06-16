@@ -424,5 +424,47 @@ export const Data = [
     "name": ["Eliezer"],
     "text": "Que Eliezer haga pila de buya y no se da cuenta porque se emociona mucho",
     "active": false
+  },
+  {
+    "id": 72,
+    "name": ["Leanthony"],
+    "text": "Que Lean haga sonidos de vibrador, perro o gato",
+    "active": false
+  },
+  {
+    "id": 73,
+    "name": ["Leanthony", "Leonardo"],
+    "text": "Que Lean trate de expresar que a él no le molesta que le digan leo",
+    "active": false
+  },
+  {
+    "id": 74,
+    "name": ["Leanthony"],
+    "text": "Que Lean diga viejo ñonks",
+    "active": false
+  },
+  {
+    "id": 75,
+    "name": ["TU"],
+    "text": "Que TU ganes una mano de dominó",
+    "active": false
+  },
+  {
+    "id": 76,
+    "name": ["Eduardo"],
+    "text": "Que edu llame a Cesarito",
+    "active": false
+  },
+  {
+    "id": 77,
+    "name": ["Anyone"],
+    "text": "Que alguien pida la pizza dominicana de pizza coco",
+    "active": false
+  },
+  {
+    "id": 78,
+    "name": ["Eva M."],
+    "text": "Que Eva M. mande un selfie de ella (sola) por el grupo",
+    "active": false
   }
 ]

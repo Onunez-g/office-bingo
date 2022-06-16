@@ -3,6 +3,7 @@ import './bingoBoard.scss'
 import BingoItem from "../bingoItem/bingoItem";
 import ListItem from "../listItem/listItem";
 import { useNavigate } from "react-router-dom";
+import ThemeSwitcher from "../themeSwitcher/themeSwitcher";
 
 const BingoBoard = ({items}) => {
   const [bingoItems, setBingoItems] = useState([])
@@ -54,9 +55,10 @@ const BingoBoard = ({items}) => {
   return (
     <div className="box">
       <div className="header">
-        <p>User: {username}</p>
+        <p>{username}</p>
         <button className="btn resetBtn" onClick={onResetBoard}>Reset board</button>
         <button className="btn loginBtn" onClick={changeUserClick}>Change user</button>
+        <ThemeSwitcher/>
       </div>
       <div className="content">
         <h2>BINGO</h2>
